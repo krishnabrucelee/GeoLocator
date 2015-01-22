@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Response>
+    <IP>8.8.8.8</IP>
+    <CountryCode>US</CountryCode>
+    <CountryName>United States</CountryName>
+    <RegionCode>CA</RegionCode>
+    <RegionName>California</RegionName>
+    <City>Mountain View</City>
+    <ZipCode>94035</ZipCode>
+    <TimeZone>America/Los_Angeles</TimeZone>
+    <Latitude>37.386</Latitude>
+    <Longitude>-122.084</Longitude>
+    <MetroCode>807</MetroCode>
+</Response>
