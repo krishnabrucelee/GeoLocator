@@ -10,20 +10,20 @@ package com.mycompany.geolocation;
  *
  * @author sony
  */
-public class Geo {
+public class GeoFactory {
     
     public GeoLocator getGeoLocation(String ipType){
         if(ipType == null){
             return null;
         }
         if(ipType.matches("http://freegeoip.net/xml/8.8.8.8")){
-            return new xml();
+            return new GeoXmlImpl();
         }
         if(ipType.equalsIgnoreCase("http://freegeoip.net/csv/4.2.2.2")){
-            return new csv();
+            return new GeoCsvImpl();
         }
         if(ipType.equalsIgnoreCase("http://freegeoip.net/json/github.com")){
-            return new json();
+            return new GeoJsonImpl();
         }
         return null;
     }

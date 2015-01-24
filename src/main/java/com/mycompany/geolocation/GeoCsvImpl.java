@@ -7,17 +7,14 @@
 package com.mycompany.geolocation;
 
 
-public class json implements GeoLocator {
+public class GeoCsvImpl implements GeoLocator {
 
     @Override
     public String ip() {
-           
-    private static String url = "http://freegeoip.net/";
-
-        HttpClient client = new HttpClient();
         
-    GetMethod method  = new GetMethod();
-    
+        
+        
+        
+        throw new UnsupportedOperationException("Not supported yet."); 
     }
-    
 }
